@@ -1,0 +1,188 @@
+:root{
+    /* Colores */
+    --linearbg: linear-gradient(207.8deg, #201E1C 16.69%, #181a97 100%);
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue:#E7F5FF;
+    --warm-black:#201E1C;
+    --black: #282623;  
+    --grey: #BABABA;
+    --off-white:#FAF8F7;
+    --just-white:#FFFFFF;
+    --fade-black:#282623;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    background: var(--linearbg);
+}
+header .logo{
+    align-self: center;
+    margin-top: 50px;
+    width: 250px;
+    height: auto;
+}
+header h1{
+    margin: 15px;
+    color: var(--just-white);
+    font-size: 2.5rem;
+    text-align: center;
+}
+header p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: var(--grey);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    background-color: var(--soft-blue);
+}
+.servicios-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.servicios-container .bill-logo{
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 20rem;
+}
+.recibos-table{
+    align-self: center;
+}
+.recibos-table h2{
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.recibos-table{
+    bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+.recibos-table table{
+    margin: 0 auto;
+    border-radius: 4px;
+}
+table, th, td{
+    width: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: var(--off-white);
+    text-align: center;
+}
+.perks{
+    background-color: var(--warm-black);
+    width: 100%;
+    height: auto;
+}
+.perks h2{
+    padding: 0 10px;
+    position: relative;
+    top: 40px;
+    color: var(--just-white);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 20px;
+
+}
+.perks p{
+    font-size: 1.8rem ;
+    position: relative;
+    text-align: center;
+    color: var(--grey);
+    top: 50px;
+    line-height: 20px;
+}
+.perks .cajas{
+    margin-top: 60px;
+    padding-bottom: 30px;
+ }
+.perks section article{
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #808080;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.caja{
+    padding: 10px;
+}
+.caja img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+    left: 10px;
+    top: 10px;
+}
+.caja h3{
+    font-size: 2rem;
+    color: var(--just-white);
+    padding-left: 5px;
+}
+.caja p{
+    position: relative;
+    bottom: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px;
+    background-color: var(--secondary-blue);
+}
+
+.contact ul li{
+    list-style: none;
+    font-size: 2rem;
+    color: var(--just-white);
+    margin-bottom: 10px;
+}
+.logos{
+    margin: auto 0;
+}
+.logos ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.logos li img{
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
